@@ -43,7 +43,7 @@ export function SideNav() {
                 >
                   <navItem.icon
                     size={20}
-                    color={navItem.name === selectedNavItem ? "black" : "grey"}
+                    color={navItem.name === selectedNavItem ? "grey" : "white"}
                   />
                   <span
                     className={`ml-2 text-sm ${
