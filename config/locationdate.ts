@@ -1,18 +1,14 @@
 export const LocationDateConfig = [
   {
-    name: "from",
-  },
-  {
-    name: "switch",
-    isSwitch: "true",
-  },
-  {
-    name: "to",
+    name: "place",
   },
   {
     name: "fromdate",
   },
   {
     name: "todate",
+  },
+  {
+    name: "people",
   },
 ]
