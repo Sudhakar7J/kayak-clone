@@ -25,7 +25,7 @@ export default function IndexPage() {
           </form>
         </div>
         <div className="flex items-center">
-          <span className="font-bold text-3xl mt-12">
+          <span className="font-bold text-2xl mt-12">
             What KAYAK brings to the table.
           </span>
         </div>
@@ -35,7 +35,7 @@ export default function IndexPage() {
               key={info.title}
               title={info.title}
               subinfo={info.subinfo}
-              image=""
+              image={info.image}
             />
           ))}
         </div>

@@ -20,6 +20,8 @@ module.exports = {
     extend: {
       colors: {
         kayakorange: "#ED4319",
+        kayakbrings: "#FFDAC1",
+        kayakbringsicon: "#C24F02",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
