@@ -1,30 +1,28 @@
-import { BedDouble } from "lucide-react"
-
-export const Locationdata = [
+export const MOCK_LOCATIONS = [
   {
-    Title: "New Delhi",
-    subinfo: "asdbasbdbasd",
-    image: BedDouble,
+    title: "Radisson Chennai City Center, India",
+    subtitle: "Chennai, Tamil Nadu, India",
+    imagePath: "https://source.unsplash.com/_dS27XGgRyQ",
   },
   {
-    Title: "New Delhi",
-    subinfo: "asdbasbdbasd",
-    image: BedDouble,
+    title: "Novotel Chennai Chamiers Road",
+    subtitle: "Chennai, Tamil Nadu, India",
+    imagePath: "https://source.unsplash.com/M7GddPqJowg",
   },
   {
-    Title: "New Delhi",
-    subinfo: "asdbasbdbasd",
-    image: BedDouble,
+    title: "The Park Chennai",
+    subtitle: "Chennai, Tamil Nadu, India",
+    imagePath: "https://source.unsplash.com/rlwE8f8anOc",
   },
   {
-    Title: "New Delhi",
-    subinfo: "asdbasbdbasd",
-    image: BedDouble,
+    title: "Fabhotel Famingo Anna Nagar",
+    subtitle: "Chennai, Tamil Nadu, India",
+    imagePath: "https://source.unsplash.com/DGa0LQ0yDPc",
   },
   {
-    Title: "New Delhi",
-    subinfo: "asdbasbdbasd",
-    image: BedDouble,
+    title: "Radha Regent - Chennai",
+    subtitle: "Chennai, Tamil Nadu, India",
+    imagePath: "https://source.unsplash.com/Koei_7yYtIo",
   },
 
   // Add more custom addresses here
