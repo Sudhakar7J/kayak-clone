@@ -3,7 +3,6 @@
 import Link from "next/link"
 
 import { Kayaktitleinfo } from "@/config/kayaktitleinfo"
-import { Locationdata } from "@/config/locationdata"
 import { LocationDateConfig } from "@/config/locationdate"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
