@@ -1,10 +1,8 @@
 import { BedDouble, Search, User } from "lucide-react"
 
 import Dateselector from "@/components/dateselector"
+import PeopleCounterDropdown from "@/components/peoplecounter/people-dropdown-counter"
 import Staysaddress from "@/components/staysaddress"
-
-import PeopleCounter from "./peoplecounter/people-counter"
-import PeopleCounterDropdown from "./peoplecounter/people-dropdown-counter"
 
 export function Locationdate({}: {}) {
   return (
