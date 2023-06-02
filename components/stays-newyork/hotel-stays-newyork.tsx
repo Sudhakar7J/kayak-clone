@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { Star } from "lucide-react"
 
 interface Location {
   hotel: string
@@ -11,6 +12,20 @@ interface Location {
 }
 
 export function NewYorkStays({ location }: { location: Location }) {
+  const renderStars = () => {
+    const stars = parseInt(location.stars)
+    const starIcons = []
+
+    for (let i = 0; i < stars; i++) {
+      starIcons.push(
+        <div key={i} className="flex">
+          <Star size={14} className="text-black opacity-60 fill-black" />
+        </div>
+      )
+    }
+
+    return starIcons
+  }
   return (
     <div className="flex flex-col mx-2">
       <div className="relative rounded-lg">
@@ -25,8 +40,8 @@ export function NewYorkStays({ location }: { location: Location }) {
           <div className="text-lg font-bold mt-2 whitespace-normal break-words">
             {location.hotel}
           </div>
-          <div className="flex mt-1">
-            <div className="text-sm">{location.stars}</div>
+          <div className="flex mt-1 items-center justify-items-center">
+            <div className="flex flex-row text-sm"> {renderStars()}</div>
             <div className="text-sm ml-4">{location.review}</div>
             <div className="text-sm ml-2">{location.rating}</div>
           </div>
