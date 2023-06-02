@@ -8,6 +8,7 @@ import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import KayakDesc from "@/components/kayakdescription"
 import LocationDate from "@/components/locationdate"
+import HotelsNewYork from "@/components/stays-newyork/carousel-hotels"
 import TopSection from "@/components/topsection"
 
 export default function IndexPage() {
@@ -37,6 +38,20 @@ export default function IndexPage() {
               image={info.image}
             />
           ))}
+        </div>
+        <div>
+          <div className="flex items-center justify-between">
+            <span className="font-bold text-3xl mt-12">
+              Stays near New York
+            </span>
+            <button className="border border-black rounded-md font-semibold p-2 mt-4">
+              See all
+            </button>
+          </div>
+          <span className="text-md mt-12">Wed, 7 Jun - Thu, 8 Jun</span>
+        </div>
+        <div className="flex flex-row">
+          <HotelsNewYork />
         </div>
       </section>
     </main>
