@@ -2,9 +2,7 @@
 
 import Link from "next/link"
 
-import { Kayaktitleinfo } from "@/config/kayaktitleinfo"
 import { KayakDescMap } from "@/components/kayak-desc-map"
-import KayakDesc from "@/components/kayakdescription"
 import LocationDate from "@/components/locationdate"
 import { Section1 } from "@/components/sectioncomponents/kayak-stays-section1"
 import { Section2 } from "@/components/sectioncomponents/kayak-stays-section2"
